@@ -1,0 +1,41 @@
+{
+  "name": "eslint-plugin-backk",
+  "version": "1.0.0",
+  "description": "Backk ESLint plugin",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "plugin",
+    "Backk"
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/backk-node/eslint-plugin-backk.git"
+  },
+  "author": "Petri Silen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/backk-node/eslint-plugin-backk/issues"
+  },
+  "homepage": "https://github.com/backk-node/eslint-plugin-backk#readme",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "mocha": "^7.0.0",
+    "prettier": "^1.19.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
